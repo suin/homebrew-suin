@@ -2,7 +2,7 @@ require 'formula'
 
 class KobitoCli < Formula
   url 'https://github.com/suin/kobito-cli.git', :using => :git
-  version '0.0.1'
+  version '2014-08-01'
 
   def install
     zsh_completion.install 'zsh-completions/_kobito' => '_kobito'
