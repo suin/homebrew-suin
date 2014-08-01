@@ -1,7 +1,7 @@
 require 'formula'
 
 class KobitoCli < Formula
-  url 'https://github.com/besport/aws.git', :using => :git
+  url 'https://github.com/suin/kobito-cli.git', :using => :git
   version '0.0.1'
 
   def install
