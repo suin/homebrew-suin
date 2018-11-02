@@ -1,13 +1,14 @@
 class GitRemind < Formula
   desc "Never forget to git commit and push."
   homepage "https://github.com/suin/git-remind/"
-  url "https://github.com/suin/git-remind/releases/download/v1.0.1/git-remind_1.0.1_Darwin_x86_64.tar.gz"
-  version "1.0.1"
-  sha256 "ec0b82f661a1d359b825707972160d80262d1c1fa71d645adb74a8d7f80ef4e4"
+  url "https://github.com/suin/git-remind/releases/download/v1.1.0/git-remind_1.1.0_Darwin_x86_64.tar.gz"
+  version "1.1.0"
+  sha256 "f4de205159fb3b7f64789881a2789591ef8b234979b0475fbe44d2c5dd27beed"
   
   depends_on "git"
 
   def install
+    bin.install "git-remind"
     bin.install "git-remind"
   end
 end
