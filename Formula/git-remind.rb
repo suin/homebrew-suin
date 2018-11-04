@@ -9,6 +9,5 @@ class GitRemind < Formula
 
   def install
     bin.install "git-remind"
-    bin.install "git-remind"
   end
 end
